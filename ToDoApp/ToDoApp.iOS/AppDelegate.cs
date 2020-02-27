@@ -23,7 +23,7 @@ namespace ToDoApp.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             // Required on iOS for EFcore.
-			SQLitePCL.Batteries_V2.Init();
+	    SQLitePCL.Batteries_V2.Init();
             
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
